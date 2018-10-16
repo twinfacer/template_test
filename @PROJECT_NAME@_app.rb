@@ -1,4 +1,7 @@
+require 'lib/<%= project_name %>'
+
 class <%= app_name %>
-  def foo
-    <%=>
+  def <%= project_name %>
+    :<%= app_name %>
+  end
 end
